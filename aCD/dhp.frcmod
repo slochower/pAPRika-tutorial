@@ -1,0 +1,33 @@
+From frcmod.phosaa10, Freq Mods, DAC Mods: dihydrogen phosphate H2PO4 (1-)
+
+MASS
+P       30.97   1.538   from parm10 P
+OD      16.00   0.434   Monoanionic Phosphate oxygen (analog to O2)
+OE      16.00   0.434   Monoanionic Phosphate oxygen, protonated (analog to OH)
+HF      1.008   0.135   H bonded to Phosphate oxygen
+
+BOND
+HF-OE   380.4   0.9476   
+OD-P    433.9   1.4746   
+OE-P    202.7   1.6429   
+
+ANGL
+OD-P -OD    61.0    125.12  
+OD-P -OE    95.5    107.00   # Niel Averaged
+OE-P -OE   157.7    100.94   
+HF-OE-P     95.2    106.36   
+
+DIHE
+HF-OE-P -OD   1   0.0   180.0   1.0   SCEE=1.6 SCNB=2.0   from X -OH-P -X
+HF-OE-P -OE   1   0.3   0.0    -2.0   SCEE=1.6 SCNB=2.0   from X -OH-P -X
+HF-OE-P -OE   1   0.0   180.0    1.0   SCEE=1.6 SCNB=2.0   from X -OH-P -X
+
+
+IMPR
+
+NONB
+P      2.1000   0.2000   from parm10 P
+OD     1.9512   0.2100   Added 0.28 to parm99.dat value = DAC mods
+OE     2.0110   0.2104   Added 0.28 to parm99.dat value = DAC mods
+HF     0.0000   0.0000   Hydroxyl Hydrogen.  Zero LJ params
+

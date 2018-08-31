@@ -1,0 +1,20 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+C -CT-CC    63.940     112.690   same as c -c3-cc, penalty score=  0.0  from parmchk2 with gaff 
+
+DIHE
+
+IMPROPER
+CT-N -C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score= 20.0)
+CC-H4-CW-NA         1.1          180.0         2.0          Using the default value
+CR-CW-NA-H          1.0          180.0         2.0          Using general improper torsional angle  X- X-NA- H, penalty score= 20.0)
+H5-NA-CR-NB         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

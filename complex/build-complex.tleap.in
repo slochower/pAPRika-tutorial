@@ -1,0 +1,14 @@
+
+source CD-leaprc
+source leaprc.gaff
+loadamberparams dummy.frcmod
+COC = loadmol2 coc.mol2
+DM1 = loadmol2 dm1.mol2
+DM2 = loadmol2 dm2.mol2
+DM3 = loadmol2 dm3.mol2
+complex = loadpdb aligned_with_dummy.pdb
+
+desc complex
+saveamberparm complex aligned_with_dummy.prmtop aligned_with_dummy.rst7
+
+quit
