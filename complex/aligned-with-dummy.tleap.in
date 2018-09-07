@@ -6,6 +6,7 @@ DM1 = loadmol2 dm1.mol2
 DM2 = loadmol2 dm2.mol2
 DM3 = loadmol2 dm3.mol2
 model = loadpdb aligned_with_dummy.pdb
+# Skipping solvation ...
 savepdb model aligned-with-dummy.pdb
 saveamberparm model aligned-with-dummy.prmtop aligned-with-dummy.rst7
 desc model
